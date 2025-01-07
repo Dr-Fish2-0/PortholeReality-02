@@ -9,4 +9,5 @@ StereoscopicCamera handles stereo images
 
 Triangulation performs the actual triangulation of the stereo points
 
-\n\nCameraCalibration is not ran in realtime and is solely used for getting the matrices needed for position triangulation
+
+CameraCalibration is not ran in realtime and is solely used for getting the matrices needed for position triangulation
