@@ -76,9 +76,11 @@ public class EditProjectionMatrix : MonoBehaviour
              * -x/w      -y/h       1      0
              * 0         0          0      1
              */
+             //Adjusts FOV angle, z is the forward vector for the camera
             editedProjectionMatrix.m00 = -(transform.localPosition.z / windowWidth);
             editedProjectionMatrix.m11 = -(transform.localPosition.z / windowHeight);
 
+            //Adjusts the shear in the x and y directions
             editedProjectionMatrix.m02 = -(transform.localPosition.x / windowWidth);
             editedProjectionMatrix.m12 = -(transform.localPosition.y / windowHeight);
         }
