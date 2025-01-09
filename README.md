@@ -9,5 +9,6 @@ StereoscopicCamera handles stereo images
 
 Triangulation performs the actual triangulation of the stereo points
 
-
 CameraCalibration is not ran in realtime and is solely used for getting the matrices needed for position triangulation
+
+EditProjectionMatrix.cs is the code used by Unity3D to match the viewers perspective
